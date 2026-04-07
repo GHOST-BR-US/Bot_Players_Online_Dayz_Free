@@ -1,0 +1,31 @@
+{
+  "bot_dayz": {
+    "token": "SEU TOKEN AQUI",
+    "id_canal_msg_status": 00000000,
+    "id_categoria_do_canal_msg_status": 00000000,
+    "tempo_de_atualizacao": 60
+  },
+  "servidor": [
+    {
+      "nome_do_servidor": "NOME DO SERVIDOR",
+      "ip_servidor": "000.00.00.000",
+      "servidor_query_port": 2303,
+      "msg_servidor_offline": "🔴 Offline"
+    }
+  ],
+  "emojis": {
+    "players": {
+      "servidor_vazio": "⚫",
+      "poucos_players": "🟢",
+      "pela_metade": "🟡",
+      "quase_cheio": "🟠",
+      "servidor_lotado": "🔴"
+    },
+    "tempo": {
+      "nascer_do_sol": "🌅",
+      "dia": "☀️",
+      "entardecer": "🌇",
+      "noite": "🌙"
+    }
+  }
+}

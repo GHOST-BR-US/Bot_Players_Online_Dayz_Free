@@ -1,0 +1,73 @@
+[PASSO 01] — TOKEN DO BOT
+"token" → Token do bot Discord
+
+Para obter seu token:
+
+1. Acesse: https://discord.com/developers/applications
+2. Crie uma aplicação ou selecione uma existente
+3. Vá em **Bot**
+4. Clique em **Redefinir Token**
+5. Copie o token e coloque no config
+
+Para adicionar o bot ao seu servidor:
+Substitua **ID_DO_BOT_AQUI** no link abaixo pelo ID do seu bot:
+https://discord.com/oauth2/authorize?client_id=ID_DO_BOT_AQUI&scope=bot&permissions=8
+
+Depois é só acessar o link e selecionar seu servidor.
+
+[PASSO 02] — CANAL DE STATUS
+"id_canal_msg_status" → ID do canal onde o bot enviará o embed com informações do servidor
+
+[PASSO 03] — CATEGORIA DE ONDE O CANAL DE VOZ VAI SER CRIADO
+"id_categoria_do_canal_msg_status" → ID da categoria onde o canal de voz será criado
+
+Recomendação:
+Use a mesma categoria do canal do [PASSO 02] — CANAL DE STATUS
+
+[PASSO 04] — TEMPO DE ATUALIZAÇÃO
+"tempo_de_atualizacao" → Tempo de atualização em segundos
+
+Recomendado: 60 (evita rate limit do Discord)
+
+[PASSO 05] — NOME DO SERVIDOR
+"nome_do_servidor" → Nome que será exibido no bot
+
+[PASSO 06] — IP DO SERVIDOR
+"ip_servidor" → IP do servidor
+
+Exemplo:
+00.00.00.000
+
+[PASSO 07] — PORTA QUERY
+"servidor_query_port" → Porta de consulta do servidor
+
+Exemplo:
+2303
+
+[PASSO 08] — MENSAGEM OFFLINE
+"msg_servidor_offline" → Mensagem exibida quando o servidor estiver offline
+
+Exemplo:
+🔴 Offline
+
+[PASSO 09] — EMOJIS (OPCIONAL)
+Você pode personalizar os emojis do bot no config.json:
+
+"emojis": {
+"players": {
+"servidor_vazio": "⚫",
+"poucos_players": "🟢",
+"pela_metade": "🟡",
+"quase_cheio": "🟠",
+"servidor_lotado": "🔴"
+},
+"tempo": {
+"nascer_do_sol": "🌅",
+"dia": "☀️",
+"entardecer": "🌇",
+"noite": "🌙"
+}
+}
+
+Observação:
+Você pode alterar os emojis livremente para personalizar o visual do bot.
